@@ -31,7 +31,9 @@ Scenario: create a videogame
      When method post 
      Then status 200 
 
-     * def addGame = response.id
+     Given path 'videogame'
+     When method get 
+     Then status 200 
 
 
    
