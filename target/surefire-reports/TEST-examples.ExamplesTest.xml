@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="3.358" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Visual Studio Projects\Automation Testing\Karate Framework\ps-karate-template\target\test-classes;D:\Visual Studio Projects\Automation Testing\Karate Framework\ps-karate-template\target\classes;C:\Users\lalo_\.m2\repository\com\intuit\karate\karate-junit5\1.4.0\karate-junit5-1.4.0.jar;C:\Users\lalo_\.m2\repository\com\intuit\karate\karate-core\1.4.0\karate-core-1.4.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\js\js-scriptengine\22.3.0\js-scriptengine-22.3.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\sdk\graal-sdk\22.3.0\graal-sdk-22.3.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\js\js\22.3.0\js-22.3.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\regex\regex\22.3.0\regex-22.3.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\truffle\truffle-api\22.3.0\truffle-api-22.3.0.jar;C:\Users\lalo_\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\Users\lalo_\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\lalo_\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\lalo_\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\lalo_\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\lalo_\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\lalo_\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\lalo_\.m2\repository\com\linecorp\armeria\armeria\1.22.0\armeria-1.22.0.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.2\jackson-datatype-jdk8-2.14.2.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.2\jackson-datatype-jsr310-2.14.2.jar;C:\Users\lalo_\.m2\repository\io\micrometer\micrometer-core\1.10.3\micrometer-core-1.10.3.jar;C:\Users\lalo_\.m2\repository\io\micrometer\micrometer-commons\1.10.3\micrometer-commons-1.10.3.jar;C:\Users\lalo_\.m2\repository\io\micrometer\micrometer-observation\1.10.3\micrometer-observation-1.10.3.jar;C:\Users\lalo_\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\lalo_\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-haproxy\4.1.87.Final\netty-codec-haproxy-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-http2\4.1.87.Final\netty-codec-http2-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver-dns\4.1.87.Final\netty-resolver-dns-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-dns\4.1.87.Final\netty-codec-dns-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\lalo_\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final-linux-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final-linux-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.87.Final\netty-resolver-dns-native-macos-4.1.87.Final-osx-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.87.Final\netty-resolver-dns-classes-macos-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.87.Final\netty-resolver-dns-native-macos-4.1.87.Final-osx-aarch_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-linux-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-classes\2.0.56.Final\netty-tcnative-classes-2.0.56.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-linux-aarch_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-osx-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-osx-aarch_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-windows-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-handler-proxy\4.1.87.Final\netty-handler-proxy-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-socks\4.1.87.Final\netty-codec-socks-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.9.0\brotli4j-1.9.0.jar;C:\Users\lalo_\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\lalo_\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\lalo_\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\lalo_\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\lalo_\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\lalo_\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\lalo_\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\lalo_\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\lalo_\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\lalo_\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\lalo_\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\lalo_\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\lalo_\.m2\repository\de\siegmar\fastcsv\2.2.1\fastcsv-2.2.1.jar;C:\Users\lalo_\.m2\repository\info\picocli\picocli\4.7.1\picocli-4.7.1.jar;C:\Users\lalo_\.m2\repository\io\github\classgraph\classgraph\4.8.152\classgraph-4.8.152.jar;C:\Users\lalo_\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\lalo_\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\lalo_\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\lalo_\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\lalo_\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\lalo_\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lalo_\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\lalo_\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="D:\Archivos de programa\Java\jdk-21.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\lalo_\AppData\Local\Temp\surefire2149151448906734402\surefirebooter-20240923221209978_3.jar C:\Users\lalo_\AppData\Local\Temp\surefire2149151448906734402 2024-09-23T22-12-09_873-jvmRun1 surefire-20240923221209978_1tmp surefire_0-20240923221209978_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Visual Studio Projects\Automation Testing\Karate Framework\ps-karate-template\target\test-classes;D:\Visual Studio Projects\Automation Testing\Karate Framework\ps-karate-template\target\classes;C:\Users\lalo_\.m2\repository\com\intuit\karate\karate-junit5\1.4.0\karate-junit5-1.4.0.jar;C:\Users\lalo_\.m2\repository\com\intuit\karate\karate-core\1.4.0\karate-core-1.4.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\js\js-scriptengine\22.3.0\js-scriptengine-22.3.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\sdk\graal-sdk\22.3.0\graal-sdk-22.3.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\js\js\22.3.0\js-22.3.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\regex\regex\22.3.0\regex-22.3.0.jar;C:\Users\lalo_\.m2\repository\org\graalvm\truffle\truffle-api\22.3.0\truffle-api-22.3.0.jar;C:\Users\lalo_\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\Users\lalo_\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\lalo_\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\lalo_\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\lalo_\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\lalo_\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\lalo_\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\lalo_\.m2\repository\com\linecorp\armeria\armeria\1.22.0\armeria-1.22.0.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.2\jackson-datatype-jdk8-2.14.2.jar;C:\Users\lalo_\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.2\jackson-datatype-jsr310-2.14.2.jar;C:\Users\lalo_\.m2\repository\io\micrometer\micrometer-core\1.10.3\micrometer-core-1.10.3.jar;C:\Users\lalo_\.m2\repository\io\micrometer\micrometer-commons\1.10.3\micrometer-commons-1.10.3.jar;C:\Users\lalo_\.m2\repository\io\micrometer\micrometer-observation\1.10.3\micrometer-observation-1.10.3.jar;C:\Users\lalo_\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\lalo_\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-haproxy\4.1.87.Final\netty-codec-haproxy-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-http2\4.1.87.Final\netty-codec-http2-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver-dns\4.1.87.Final\netty-resolver-dns-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-dns\4.1.87.Final\netty-codec-dns-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\lalo_\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final-linux-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final-linux-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.87.Final\netty-resolver-dns-native-macos-4.1.87.Final-osx-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.87.Final\netty-resolver-dns-classes-macos-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.87.Final\netty-resolver-dns-native-macos-4.1.87.Final-osx-aarch_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-linux-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-classes\2.0.56.Final\netty-tcnative-classes-2.0.56.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-linux-aarch_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-osx-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-osx-aarch_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.56.Final\netty-tcnative-boringssl-static-2.0.56.Final-windows-x86_64.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-handler-proxy\4.1.87.Final\netty-handler-proxy-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\io\netty\netty-codec-socks\4.1.87.Final\netty-codec-socks-4.1.87.Final.jar;C:\Users\lalo_\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.9.0\brotli4j-1.9.0.jar;C:\Users\lalo_\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\lalo_\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\lalo_\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\lalo_\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\lalo_\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\lalo_\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\lalo_\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\lalo_\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\lalo_\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\lalo_\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\lalo_\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\lalo_\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\lalo_\.m2\repository\de\siegmar\fastcsv\2.2.1\fastcsv-2.2.1.jar;C:\Users\lalo_\.m2\repository\info\picocli\picocli\4.7.1\picocli-4.7.1.jar;C:\Users\lalo_\.m2\repository\io\github\classgraph\classgraph\4.8.152\classgraph-4.8.152.jar;C:\Users\lalo_\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\lalo_\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\lalo_\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\lalo_\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\lalo_\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\lalo_\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lalo_\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\lalo_\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\lalo_"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="D:\Archivos de programa\Java\jdk-21.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Visual Studio Projects\Automation Testing\Karate Framework\ps-karate-template"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\lalo_\AppData\Local\Temp\surefire2149151448906734402\surefirebooter-20240923221209978_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-58"/>
+    <property name="user.name" value="lalo_"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\lalo_\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\lalo_\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="D:\Visual Studio Projects\Automation Testing\Karate Framework\ps-karate-template"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Archivos de programa\Java\jdk-21.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;D:\Archivos de programa\Java\jdk-21.0.2\bin;D:\Archivos de programa\Git\cmd;D:\Archivos de programa\Maven\bin;D:\Archivos de programa\Python\Scripts\;D:\Archivos de programa\Python\;C:\Users\lalo_\AppData\Local\Programs\Python\Launcher\;C:\Users\lalo_\AppData\Local\Microsoft\WindowsApps;D:\Archivos de programa\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="3.355">
+    <system-out><![CDATA[22:12:11.176 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:12:11.176 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:12:11.919 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:11.936 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:11.938 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:12:12.135 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://videogamedb.uk/api/v2/videogame
+1 > Host: videogamedb.uk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:12:12.135 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:12:12.135 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://videogamedb.uk/api/v2/videogame
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 103
+1 > Host: videogamedb.uk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"category":"Platform","name":"Sonic","rating":"Adventure","releaseDate":"2012-05-04","reviewScore":75}
+
+22:12:12.509 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 373
+1 < 200
+1 < Date: Tue, 24 Sep 2024 04:11:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722465473&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cTDAO9C2mQ9DqrvLraxZ%2FSkEDNXh0ih%2Buys02EEe32E%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722465473&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cTDAO9C2mQ9DqrvLraxZ%2FSkEDNXh0ih%2Buys02EEe32E%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1722465530
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 19120
+1 < Server: cloudflare
+1 < CF-RAY: 8c7fedc7698db787-DFW
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+22:12:12.533 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:12:12.776 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 243
+2 < 200
+2 < Date: Tue, 24 Sep 2024 04:11:09 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720131002&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=k58ZjHsJTJBCwRRwooq8ZYXKZma%2FhtN9hGxZl4Ddj%2F4%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720131002&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=k58ZjHsJTJBCwRRwooq8ZYXKZma%2FhtN9hGxZl4Ddj%2F4%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1720131024
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 11802
+2 < Server: cloudflare
+2 < CF-RAY: 8c7fedc91ceb4636-DFW
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+22:12:12.989 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 853
+1 < 200
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 24 Sep 2024 04:11:09 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10 23:59:59","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25 23:59:59","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20 23:59:59","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10 23:59:59","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18 23:59:59","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05 23:59:59","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11 23:59:59","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20 23:59:59","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23 23:59:59","reviewScore":90,"category":"Driving","rating":"Mature"}]
+
+22:12:12.989 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://videogamedb.uk/api/v2/videogame/1
+2 > Host: videogamedb.uk
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+22:12:13.126 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 990
+1 < 200
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 24 Sep 2024 04:11:09 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"id":0,"name":"Sonic","releaseDate":"2012-05-04","reviewScore":75,"category":"Platform","rating":"Adventure"}
+
+---------------------------------------------------------
+feature: classpath:examples/users/users.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.8373
+---------------------------------------------------------
+
+22:12:13.173 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:examples/users/users.feature
+22:12:13.610 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 620
+2 < 200
+2 < Vary: Origin
+2 < Vary: Access-Control-Request-Method
+2 < Vary: Access-Control-Request-Headers
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 24 Sep 2024 04:11:09 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
+
+---------------------------------------------------------
+feature: classpath:examples/videogames/videogames.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 2.8579
+---------------------------------------------------------
+
+22:12:13.690 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:examples/videogames/videogames.feature
+Karate version: 1.4.0
+======================================================
+elapsed:   3.05 | threads:    5 | thread time: 3.70 
+features:     2 | skipped:    0 | efficiency: 0.24
+scenarios:    3 | passed:     3 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.4.0
+file:///D:/Visual%20Studio%20Projects/Automation%20Testing/Karate%20Framework/ps-karate-template/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

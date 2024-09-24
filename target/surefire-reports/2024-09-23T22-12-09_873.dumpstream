@@ -1,0 +1,5 @@
+# Created at 2024-09-23T22:12:10.027
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Visual Studio Projects\Automation Testing\Karate Framework\ps-karate-template\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
