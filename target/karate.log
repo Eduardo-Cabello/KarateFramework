@@ -411,3 +411,863 @@
 {"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
 
 22:12:13.690 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:examples/videogames/videogames.feature
+13:31:38.392 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:31:38.399 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1727206298395
+13:31:38.406 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:31:39.270 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:31:39.285 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:31:39.287 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:31:39.479 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://videogamedb.uk/api/v2/videogame
+1 > Host: videogamedb.uk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:31:39.479 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:31:39.479 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://videogamedb.uk/api/v2/videogame
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 109
+1 > Host: videogamedb.uk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"category":"Platform","name":"Mario Party","rating":"Adventure","releaseDate":"2012-05-04","reviewScore":75}
+
+13:31:39.798 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 319
+1 < 200
+1 < Date: Tue, 24 Sep 2024 19:30:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722465473&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cTDAO9C2mQ9DqrvLraxZ%2FSkEDNXh0ih%2Buys02EEe32E%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722465473&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cTDAO9C2mQ9DqrvLraxZ%2FSkEDNXh0ih%2Buys02EEe32E%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1722465530
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 16666
+1 < Server: cloudflare
+1 < CF-RAY: 8c8530a07ba24858-DFW
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+13:31:39.811 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:31:39.961 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 150
+2 < 200
+2 < Date: Tue, 24 Sep 2024 19:30:36 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720131002&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=k58ZjHsJTJBCwRRwooq8ZYXKZma%2FhtN9hGxZl4Ddj%2F4%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720131002&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=k58ZjHsJTJBCwRRwooq8ZYXKZma%2FhtN9hGxZl4Ddj%2F4%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1720131024
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 9327
+2 < Server: cloudflare
+2 < CF-RAY: 8c8530a1a8f12fec-DFW
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+13:31:40.161 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 681
+1 < 200
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 24 Sep 2024 19:30:36 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"id":0,"name":"Mario Party","releaseDate":"2012-05-04","reviewScore":75,"category":"Platform","rating":"Adventure"}
+
+13:31:40.161 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+2 > GET https://videogamedb.uk/api/v2/videogame/0
+2 > Host: videogamedb.uk
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:31:40.161 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 682
+1 < 200
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 24 Sep 2024 19:30:36 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10 23:59:59","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25 23:59:59","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20 23:59:59","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10 23:59:59","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18 23:59:59","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05 23:59:59","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11 23:59:59","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20 23:59:59","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23 23:59:59","reviewScore":90,"category":"Driving","rating":"Mature"}]
+
+13:31:40.178 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://videogamedb.uk/api/v2/videogame/1
+2 > Host: videogamedb.uk
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:31:40.428 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:examples/users/users.feature
+13:31:40.685 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 507
+2 < 200
+2 < Vary: Origin
+2 < Vary: Access-Control-Request-Method
+2 < Vary: Access-Control-Request-Headers
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 24 Sep 2024 19:30:36 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
+
+13:31:40.708 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 546
+2 < 404
+2 < Vary: Origin
+2 < Vary: Access-Control-Request-Method
+2 < Vary: Access-Control-Request-Headers
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 24 Sep 2024 19:30:36 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"timestamp":"2024-09-24T19:30:37.127+00:00","status":404,"error":"Not Found","path":"/api/v2/videogame/0"}
+
+13:31:40.713 [pool-1-thread-3] ERROR com.intuit.karate - classpath:examples/videogames/videogames.feature:38
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 546, url: https://videogamedb.uk/api/v2/videogame/0, response: 
+{"timestamp":"2024-09-24T19:30:37.127+00:00","status":404,"error":"Not Found","path":"/api/v2/videogame/0"}
+classpath:examples/videogames/videogames.feature:38
+13:31:40.796 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:examples/videogames/videogames.feature
+13:37:49.452 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:37:49.458 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1727206669455
+13:37:49.463 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+13:37:50.250 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+13:37:50.265 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+13:37:50.267 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+13:37:50.447 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:37:50.447 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://videogamedb.uk/api/v2/videogame
+1 > Host: videogamedb.uk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:37:50.448 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://videogamedb.uk/api/v2/videogame
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 109
+1 > Host: videogamedb.uk
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"category":"Platform","name":"Mario Party","rating":"Adventure","releaseDate":"2012-05-04","reviewScore":75}
+
+13:37:50.875 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 424
+1 < 200
+1 < Date: Tue, 24 Sep 2024 19:36:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1722465473&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cTDAO9C2mQ9DqrvLraxZ%2FSkEDNXh0ih%2Buys02EEe32E%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1722465473&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=cTDAO9C2mQ9DqrvLraxZ%2FSkEDNXh0ih%2Buys02EEe32E%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1722465530
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 17037
+1 < Server: cloudflare
+1 < CF-RAY: 8c8539aeee2a6b2c-DFW
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+13:37:50.890 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:37:51.028 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 579
+1 < 200
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 24 Sep 2024 19:36:47 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"id":0,"name":"Mario Party","releaseDate":"2012-05-04","reviewScore":75,"category":"Platform","rating":"Adventure"}
+
+13:37:51.034 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 586
+1 < 200
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 24 Sep 2024 19:36:47 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10 23:59:59","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25 23:59:59","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20 23:59:59","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10 23:59:59","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18 23:59:59","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05 23:59:59","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11 23:59:59","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20 23:59:59","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23 23:59:59","reviewScore":90,"category":"Driving","rating":"Mature"}]
+
+13:37:51.039 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://videogamedb.uk/api/v2/videogame/1
+2 > Host: videogamedb.uk
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+
+
+13:37:51.040 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 150
+2 < 200
+2 < Date: Tue, 24 Sep 2024 19:36:47 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720131002&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=k58ZjHsJTJBCwRRwooq8ZYXKZma%2FhtN9hGxZl4Ddj%2F4%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720131002&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=k58ZjHsJTJBCwRRwooq8ZYXKZma%2FhtN9hGxZl4Ddj%2F4%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1720131024
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 9698
+2 < Server: cloudflare
+2 < CF-RAY: 8c8539b0cb25e83f-DFW
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+13:37:51.437 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:examples/users/users.feature
+13:37:51.537 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 498
+2 < 200
+2 < Vary: Origin
+2 < Vary: Access-Control-Request-Method
+2 < Vary: Access-Control-Request-Headers
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 24 Sep 2024 19:36:47 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
+
+13:37:51.616 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:examples/videogames/videogames.feature
