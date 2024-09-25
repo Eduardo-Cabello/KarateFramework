@@ -20,7 +20,7 @@ Scenario: create a videogame
     """
     {
         "category": "Platform",
-        "name": "Sonic",
+        "name": "Mario Party",
         "rating": "Adventure",
         "releaseDate": "2012-05-04",
         "reviewScore": 75
@@ -30,6 +30,12 @@ Scenario: create a videogame
      And request vidGame
      When method post 
      Then status 200 
+
+     Given path 'videogame'
+     When method get 
+     Then status 200 
+
+
    
 
 
